@@ -99,3 +99,21 @@ nav a:hover{
     border-radius: 8px;
     box-shadow: 8px 8px 10px rgb(114, 111, 111);
 }
+
+.about-2 a{
+    width: 25%;
+    margin: auto;
+    padding: 15px 20px;
+    border: 2px solid white;
+    background-color: tomato;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+
+}
+.about-2 a:hover{
+    background-color: rgb(21, 21, 129);
+    cursor:pointer;
+}
