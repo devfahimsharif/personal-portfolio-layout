@@ -51,7 +51,7 @@ nav a:hover{
     box-shadow: 10px 10px 20px rgb(104, 104, 104); 
     border-radius: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .about-1{
@@ -116,4 +116,24 @@ nav a:hover{
 .about-2 a:hover{
     background-color: rgb(21, 21, 129);
     cursor:pointer;
+}
+#project{
+    max-width: 70%;
+    max-height: 300px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: beige;   
+    box-shadow: 10px 10px 20px rgb(104, 104, 104); 
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.project-box{
+    text-align: center;
+    background-color: rgba(159, 224, 219, 0.527);
+    margin: 10px 25px;
+    padding: 10px 20px;
+    box-shadow: 8px 8px 10px rgb(39, 38, 38);
+    border-radius: 8px;
 }
