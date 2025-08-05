@@ -41,5 +41,61 @@ nav a:hover{
     background-color:rgb(21, 21, 129);
     color: aliceblue;
     padding: 20px;
+    cursor: pointer;
+}
+#about{
+    max-width: 70%;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: beige;   
+    box-shadow: 10px 10px 20px rgb(104, 104, 104); 
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-1{
+    max-width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #0d58e45e;
+    color: aliceblue;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgb(114, 111, 111);
+
+}
+.about-1 img{
+    height: 200px;
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 50%;
+    border: 2px solid rgb(240, 139, 8);
+
+}
+.about-1 h3{
+    display: inline block;
+    margin:  8px auto;
+    font-size: 28px;
+    color: ;
+}
+.about-1 p{
+    display: inline block;
+    margin: 0;
+    
 }
 
+.about-2{
+    max-width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: rgb(16, 18, 19);
+    padding: 20px 20px;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 8px 8px 10px rgb(114, 111, 111);
+}
