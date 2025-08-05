@@ -79,7 +79,7 @@ nav a:hover{
     display: inline block;
     margin:  8px auto;
     font-size: 28px;
-    color: ;
+    
 }
 .about-1 p{
     display: inline block;
@@ -137,3 +137,45 @@ nav a:hover{
     box-shadow: 8px 8px 10px rgb(39, 38, 38);
     border-radius: 8px;
 }
+#contact{
+    max-width: 50%;
+    margin: 25px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: tomato;
+    border: 3px solid whitesmoke;
+    border-radius: 8px;
+    box-shadow: 8px 8px 10px rgb(39, 38, 38);
+}
+#contact h2{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: aliceblue;
+}
+#contact p{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: aliceblue;
+    
+}
+#contact a{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer p{
+    text-align: center;
+    background-color: rgb(40, 43, 211);
+    color: aliceblue;
+    margin: 0;
+    padding: 20px 0;
+
+}
+
